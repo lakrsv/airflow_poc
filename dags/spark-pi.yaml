@@ -44,6 +44,7 @@ spec:
       - name: "test-volume"
         mountPath: "/tmp"
   executor:
+    serviceAccount: my-release-spark
     cores: 1
     instances: 1
     memory: "512m"
