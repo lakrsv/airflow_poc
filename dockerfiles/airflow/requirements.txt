@@ -1,0 +1,4 @@
+# requirements.txt
+
+apache-airflow[amazon]
+apache-airflow-providers-cncf-kubernetes
