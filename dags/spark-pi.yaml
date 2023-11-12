@@ -34,6 +34,7 @@ spec:
         path: "/tmp"
         type: Directory
   driver:
+    serviceAccount: spark-spark
     cores: 1
     coreLimit: "1200m"
     memory: "512m"
